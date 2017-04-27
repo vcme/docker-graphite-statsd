@@ -1,6 +1,11 @@
-[![Docker Pulls](https://img.shields.io/docker/pulls/hopsoft/graphite-statsd.svg?style=flat)](https://hub.docker.com/r/hopsoft/graphite-statsd/)
+# Docker Image for Graphite & Statsd for use with VCME LoadTester
 
-# Docker Image for Graphite & Statsd
+## Forked from hopsoft/graphite-statsd
+
+This repo was forked from [hopsoft/graphite-statsd](https://github.com/hopsoft/docker-graphite-statsd) for use by VCME.
+
+The fork is in order to use different default config settings for statsd and graphite that are suitable for the
+load testing environment.
 
 ## Get Graphite & Statsd running instantly
 
